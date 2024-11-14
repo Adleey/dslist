@@ -38,6 +38,7 @@ public class GameDTO {
          tiverem o mesmo nome em uma determinada classe (entity). This serve para referenciar os atributos da classe atual */
     }
 
+    // Por ter usado o metodo bean, tenho que ter gets e sets, senão tivesse usado, poderia ter utilizado apenas os gets
     public Long getId() {
         return id;
     }
